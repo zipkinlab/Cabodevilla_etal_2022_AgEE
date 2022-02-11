@@ -4,7 +4,7 @@
 
 ### Xabier Cabodevilla, Alexander D. Wright, Diego Villanua, Beatriz Arroyo, and Elise F. Zipkin
 
-### Code/Data DOI:
+### Code/Data DOI: [![DOI](https://zenodo.org/badge/457900671.svg)](https://zenodo.org/badge/latestdoi/457900671)
 
 ### Please contact the first author for questions about the code or data: Xabier Cabodevilla (xabier.cabodevilla@ehu.eus)
 __________________________________________________________________________________________________________________________________________
