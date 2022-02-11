@@ -25,7 +25,7 @@ Assessing the effects of agricultural intensification on biodiversity is critica
 
 [Irrigation.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Irrigation.txt): Data on irrigation status. 1 = irrigated and 0 = non-irrigates. Rows refers to sampling locations while columns refers to years.  
 
-[Bird species names.txt](): English and Latin names of studied species related to species ID number. 
+[Bird species names.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Bird%20species%20names.txt): English and Latin names of studied species related to species ID number. 
 
 
 ## Code
