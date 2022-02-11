@@ -6,7 +6,7 @@
 
 ### Code/Data DOI:
 
-### Please contact the first author for questions about the code or data: Xabier Cabodevilla (xabi_cabo@hotmail.com)
+### Please contact the first author for questions about the code or data: Xabier Cabodevilla (xabier.cabodevilla@ehu.eus)
 __________________________________________________________________________________________________________________________________________
 
 ## Abstract:  
@@ -15,21 +15,23 @@ Assessing the effects of agricultural intensification on biodiversity is critica
 
 ## Data
 
-[Arable_surface.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Arable_surface.txt) 
+[Arable_surface.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Arable_surface.txt): The percent of arable land (cereal fields) within a 100 m radius buffer at each sampling location. This variable is used to estimate the occurrence state within the Multi-species occupancy model. 
 
-[birds_occ_data.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/birds_occ_data.txt)
+[birds_occ_data.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/birds_occ_data.txt): Bird observations during the study period. The document is divided into five columns: site (sampling point), year (sampling year, 1=2007, 12=2019), rep (replicate visit), species (Species ID number, the name of species can be found within Bird species names.txt document), and occ (Observation status, observed = 1, non-observed = 0). This is the data file used within the Multi-species occupancy model.
 
-[Date.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Date.txt)
+[Date.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Date.txt): Sampling date data. The document is divided into five columns: site (sampling point), year (sampling year, 1=2007, 12=2019), rep (replicate visit), species (Species ID number, the name of species can be found within Bird species names.txt document), and Date (the date of sampling). This variable is used to estimate the detection probabilities within the Multi-species occupancy model.
 
-[Hour.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Hour.txt)
+[Hour.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Hour.txt): Sampling time data. The document is divided into five columns: site (sampling point), year (sampling year, 1=2007, 12=2019), rep (replicate visit), species (Species ID number, the name of species can be found within Bird species names.txt document), and Hour (the time of sampling). This variable is used to estimate the detection probabilities within the Multi-species occupancy model.
 
-[Irrigation.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Irrigation.txt)
+[Irrigation.txt](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Irrigation.txt): Data on irrigation status. 1 = irrigated and 0 = non-irrigates. Rows refers to sampling locations while columns refers to years.  
+
+[Bird species names.txt](): English and Latin names of studied species related to species ID number. 
 
 
 ## Code
 
-[Multi-species occupancy model.R](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Multi-species%20occupancy%20model.R)
+[Multi-species occupancy model.R](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Multi-species%20occupancy%20model.R): Code for running the Multi-species occupancy model
 
-[Graphs.R](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Graphs.R)
+[Graphs.R](https://github.com/zipkinlab/Cabodevilla_etal_2022_AgEE/blob/main/Graphs.R): Code needed to recreate the figures presented in this work
 
 
